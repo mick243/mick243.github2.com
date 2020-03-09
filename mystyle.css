@@ -5,34 +5,22 @@
 .dimm #header.bg1{border-bottom:none;background:none;-webkit-transition-duration:0s;transition-duration:0s;-webkit-transition-timing-function:ease;transition-timing-function:ease}/* 190430 추가 */
 #header .top{position:relative}
 #header h1.logo{display:inline-block;overflow:hidden}
-#header .krafton{display:block;width:60px;height:47px;margin:26px 40px;background:url() 0 0 no-repeat;background-size:166px 247px ;text-indent:-9999px;vertical-align:top}
+#header .krafton{display:block;width:60px;height:47px;margin:26px 40px;background:url(/kr/img/common/sp_ico.svg) 0 0 no-repeat;background-size:166px 247px ;text-indent:-9999px;vertical-align:top}
 #header .gnb{overflow:hidden;position:absolute;right:0;top:0}
 #header .gnb ul{overflow:hidden;float:left;position:relative;padding-right:17px}
 #header .gnb ul:after{content:'';display:block;position:absolute;right:0;top:50%;width:1px;height:18px;margin-top:-9px;background:rgba(255,255,255,0.1);vertical-align:top}
 #header .gnb ul li{overflow:hidden;float:left;text-decoration:none}
-#header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#000;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
+#header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#FFF;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
 #header .gnb ul li a:hover{text-decoration:underline}
-#header .gnb #menu .txt{display:inline-block;overflow:hidden;float:left;height:100px;margin:0 15px;color:#000;font-size:15px;line-height:100px}
+#header .gnb #menu .txt{display:inline-block;overflow:hidden;float:left;height:100px;margin:0 15px;color:#FFF;font-size:15px;line-height:100px}
 #header .gnb #menu{overflow:hidden;height:100px;margin-right:22px;padding:0 15px}
 #header .gnb #menu:hover{text-decoration:underline}
-#header .gnb #menu:before{content:'전체메뉴';display:inline-block;height:100px;margin:0 15px;color:#fff;font-size:15px;line-height:100px;vertical-align:middle}
+#header .gnb #menu:before{content:'전체메뉴';display:inline-block;height:100px;margin:0 15px;color:#FFF;font-size:15px;line-height:100px;vertical-align:middle}
 #header .gnb #menu:hover:before{text-decoration:underline}
 #header .gnb #menu .hamburger{display:inline-block;vertical-align:middle}
 #header .gnb #menu span{display:block;overflow:hidden;width:36px;height:2px;background:#FFF;margin:6px auto;transition:all 0.5s}
 #header .gnb #menu.on span:nth-child(1){transform:translateY(8px) rotate(225deg);-webkit-transition-delay:0.1s;transition-delay:0.1s}
 #header .gnb #menu.on span:nth-child(2){opacity:0}
 #header .gnb #menu.on span:nth-child(3){transform:translateY(-8px) rotate(-225deg);-webkit-transition-delay:0.1s;transition-delay:0.1s}
-.main .q_page{position:fixed;left:40px;top:50%;z-index:1100;transform:translateY(-50%);}
-.main .q_page li{padding:5px 0}
-.main .q_page li a{display:block;color:rgba(0,0,0,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top;text-decoration:none}
-.main .q_page li a span:hover{text-decoration:underline}
-.main .q_page li a span{display:inline-block}
-.main .q_page li.active a{color:rgba(255,255,255,1)}
-.main .q_page.on li a{color:rgba(0,0,0,1)}
-.main .q_page li.active a span{display:inline-block;position:relative;padding-right:21px}
-.main .q_page li.active a span:after{content:'';display:block;position:absolute;right:0;top:50%;width:11px;height:10px;margin-top:-5px;background:url() -70px 0 no-repeat;background-size:166px 247px ;vertical-align:top}
 #container{overflow:hidden;position:relative;z-index:0}
 #container .contents{overflow:hidden;position:relative}
-.main .cover .media_bx{overflow:hidden;position:relative;height:100%}
-.main .cover .media_bx .mv_bx{position:relative;width:100%;height:100vh}
-.main .cover .media_bx .mv_bx video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)}
