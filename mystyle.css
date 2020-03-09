@@ -1,4 +1,4 @@
-#wrap{min-width:1260px;min-height:768px;}
+#wrap{min-width:1260px;min-height:100%;}
 #header{position:fixed;left:0;top:0;z-index:2000;width:100%;-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
 #header.bg1{border-bottom:1px solid rgba(255,255,255,0.03);background:rgba(31,32,45,0.95);-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
 #header.skrollable-after{border-bottom:1px solid rgba(255,255,255,0.03);background:rgba(31,32,45,0.95);-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
