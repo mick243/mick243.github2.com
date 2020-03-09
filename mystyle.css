@@ -19,7 +19,7 @@
 .dimm #header.bg1{border-bottom:none;background:none;-webkit-transition-duration:0s;transition-duration:0s;-webkit-transition-timing-function:ease;transition-timing-function:ease}/* 190430 추가 */
 #header .top{position:relative}
 #header h1.logo{display:inline-block;overflow:hidden}
-/*#header .krafton{display:block;width:60px;height:47px;margin:26px 40px;background:url(/kr/img/common/sp_ico.svg) 0 0 no-repeat;background-size:166px 247px ;text-indent:-9999px;vertical-align:top}
+/* #header .krafton{display:block;width:60px;height:47px;margin:26px 40px;background:url(/kr/img/common/sp_ico.svg) 0 0 no-repeat;background-size:166px 247px ;text-indent:-9999px;vertical-align:top} */
 #header .gnb{overflow:hidden;position:absolute;right:0;top:0}
 #header .gnb ul{overflow:hidden;float:left;position:relative;padding-right:17px}
 #header .gnb ul:after{content:'';display:block;position:absolute;right:0;top:50%;width:1px;height:18px;margin-top:-9px;background:rgba(255,255,255,0.1);vertical-align:top}
