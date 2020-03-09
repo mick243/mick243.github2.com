@@ -24,7 +24,7 @@
 #header .gnb #menu.on span:nth-child(3){transform:translateY(-8px) rotate(-225deg);-webkit-transition-delay:0.1s;transition-delay:0.1s}
 .main .q_page{position:fixed;left:40px;top:50%;z-index:1100;transform:translateY(-50%);}
 .main .q_page li{padding:5px 0}
-.main .q_page li a{display:block;color:rgba(0,0,0,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top}
+.main .q_page li a{display:block;color:rgba(0,0,0,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top;text-decoration:none}
 .main .q_page li a span:hover{text-decoration:underline}
 .main .q_page li a span{display:inline-block}
 .main .q_page li.active a{color:rgba(255,255,255,1)}
