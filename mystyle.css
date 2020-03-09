@@ -1,17 +1,3 @@
-.main .q_page{position:fixed;left:40px;top:50%;z-index:1100;transform:translateY(-50%);}
-.main .q_page li{padding:5px 0}
-.main .q_page li a{display:block;color:rgba(255,255,255,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top}
-.main .q_page li a span:hover{text-decoration:underline}
-.main .q_page li a span{display:inline-block}
-.main .q_page li.active a{color:rgba(255,255,255,1)}
-.main .q_page.on li a{color:rgba(255,255,255,1)}
-.main .q_page li.active a span{display:inline-block;position:relative;padding-right:21px}
-.main .q_page li.active a span:after{content:'';display:block;position:absolute;right:0;top:50%;width:11px;height:10px;margin-top:-5px;background:url() -70px 0 no-repeat;background-size:166px 247px ;vertical-align:top}
-#container{overflow:hidden;position:relative;z-index:0}
-#container .contents{overflow:hidden;position:relative}
-.main .cover .media_bx{overflow:hidden;position:relative;height:100%}
-.main .cover .media_bx .mv_bx{position:relative;width:100%;height:100vh}
-.main .cover .media_bx .mv_bx video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)}
 #wrap{min-width:1260px;min-height:768px;}
 #header{position:fixed;left:0;top:0;z-index:2000;width:100%;-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
 #header.bg1{border-bottom:1px solid rgba(255,255,255,0.03);background:rgba(31,32,45,0.95);-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
@@ -26,3 +12,17 @@
 #header .gnb ul li{overflow:hidden;float:left;text-decoration:none}
 #header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#FFF;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
 #header .gnb ul li a:hover{text-decoration:underline}
+.main .q_page{position:fixed;left:40px;top:50%;z-index:1100;transform:translateY(-50%);}
+.main .q_page li{padding:5px 0}
+.main .q_page li a{display:block;color:rgba(255,255,255,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top}
+.main .q_page li a span:hover{text-decoration:underline}
+.main .q_page li a span{display:inline-block}
+.main .q_page li.active a{color:rgba(255,255,255,1)}
+.main .q_page.on li a{color:rgba(255,255,255,1)}
+.main .q_page li.active a span{display:inline-block;position:relative;padding-right:21px}
+.main .q_page li.active a span:after{content:'';display:block;position:absolute;right:0;top:50%;width:11px;height:10px;margin-top:-5px;background:url() -70px 0 no-repeat;background-size:166px 247px ;vertical-align:top}
+#container{overflow:hidden;position:relative;z-index:0}
+#container .contents{overflow:hidden;position:relative}
+.main .cover .media_bx{overflow:hidden;position:relative;height:100%}
+.main .cover .media_bx .mv_bx{position:relative;width:100%;height:100vh}
+.main .cover .media_bx .mv_bx video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)}
