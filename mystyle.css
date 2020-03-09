@@ -12,10 +12,10 @@
 #header .gnb ul li{overflow:hidden;float:left;text-decoration:none}
 #header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#FFF;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
 #header .gnb ul li a:hover{text-decoration:underline}
-#header .gnb #menu .txt{display:inline-block;overflow:hidden;float:left;height:100px;margin:0 15px;color:#FFF;font-size:15px;line-height:100px}
+#header .gnb #menu .txt{display:inline-block;overflow:hidden;float:left;height:100px;margin:0 15px;color:#000;font-size:15px;line-height:100px}
 #header .gnb #menu{overflow:hidden;height:100px;margin-right:22px;padding:0 15px}
 #header .gnb #menu:hover{text-decoration:underline}
-#header .gnb #menu:before{content:'전체메뉴';display:inline-block;height:100px;margin:0 15px;color:#FFF;font-size:15px;line-height:100px;vertical-align:middle}
+#header .gnb #menu:before{content:'전체메뉴';display:inline-block;height:100px;margin:0 15px;color:#000;font-size:15px;line-height:100px;vertical-align:middle}
 #header .gnb #menu:hover:before{text-decoration:underline}
 #header .gnb #menu .hamburger{display:inline-block;vertical-align:middle}
 #header .gnb #menu span{display:block;overflow:hidden;width:36px;height:2px;background:#FFF;margin:6px auto;transition:all 0.5s}
@@ -27,7 +27,7 @@
 .main .q_page li a{display:block;color:rgba(0,0,0,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top}
 .main .q_page li a span:hover{text-decoration:underline}
 .main .q_page li a span{display:inline-block}
-.main .q_page li.active a{color:rgba(255,255,255,1)}
+.main .q_page li.active a{color:rgba(0,0,0,1)}
 .main .q_page.on li a{color:rgba(0,0,0,1)}
 .main .q_page li.active a span{display:inline-block;position:relative;padding-right:21px}
 .main .q_page li.active a span:after{content:'';display:block;position:absolute;right:0;top:50%;width:11px;height:10px;margin-top:-5px;background:url() -70px 0 no-repeat;background-size:166px 247px ;vertical-align:top}
