@@ -12,3 +12,17 @@
 .main .cover .media_bx{overflow:hidden;position:relative;height:100%}
 .main .cover .media_bx .mv_bx{position:relative;width:100%;height:100vh}
 .main .cover .media_bx .mv_bx video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)}
+#wrap{min-width:1260px;min-height:768px;}
+#header{position:fixed;left:0;top:0;z-index:2000;width:100%;-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
+#header.bg1{border-bottom:1px solid rgba(255,255,255,0.03);background:rgba(31,32,45,0.95);-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
+#header.skrollable-after{border-bottom:1px solid rgba(255,255,255,0.03);background:rgba(31,32,45,0.95);-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease;transition-timing-function:ease}
+.dimm #header.bg1{border-bottom:none;background:none;-webkit-transition-duration:0s;transition-duration:0s;-webkit-transition-timing-function:ease;transition-timing-function:ease}/* 190430 추가 */
+#header .top{position:relative}
+#header h1.logo{display:inline-block;overflow:hidden}
+//#header .krafton{display:block;width:60px;height:47px;margin:26px 40px;background:url(/kr/img/common/sp_ico.svg) 0 0 no-repeat;background-size:166px 247px ;text-indent:-9999px;vertical-align:top}
+#header .gnb{overflow:hidden;position:absolute;right:0;top:0}
+#header .gnb ul{overflow:hidden;float:left;position:relative;padding-right:17px}
+#header .gnb ul:after{content:'';display:block;position:absolute;right:0;top:50%;width:1px;height:18px;margin-top:-9px;background:rgba(255,255,255,0.1);vertical-align:top}
+#header .gnb ul li{overflow:hidden;float:left;text-decoration:none}
+#header .gnb ul li a{display:block;overflow:hidden;height:100px;padding:0 15px;color:#FFF;font-family:Camber,'Camber',sans-serif;font-size:15px;font-weight:500;line-height:101px}
+#header .gnb ul li a:hover{text-decoration:underline}
