@@ -34,3 +34,6 @@
 .main .q_page li.active a span{display:inline-block;position:relative;padding-right:21px}
 .main .q_page li.active a span:after{content:'';display:block;position:absolute;right:0;top:50%;width:11px;height:10px;margin-top:-5px;background:url(/kr/img/common/sp_ico.svg) -70px 0 no-repeat;background-size:166px 247px ;vertical-align:top}
 .main .section{overflow:hidden;position:relative}
+.main .cover .media_bx{overflow:hidden;position:relative;height:100%}
+.main .cover .media_bx .mv_bx{position:relative;width:100%;height:100vh}
+.main .cover .media_bx .mv_bx video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)}
