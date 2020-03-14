@@ -6,8 +6,13 @@
 	  .video{position:absolute;top:50%;left:50%;width:100vw;height:56.25vw;/* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */min-height:100vh;min-width:177.77vh;/* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */transform:translate(-50%, -50%)
 }
   </style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+	<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
 	<link type="text/css" rel="stylesheet" href="mystyle.css">
 	<link type="text/css" rel="stylesheet" href="css/jquery.jscrollpane.css" />
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 </head>
 <div id="skrollr-body">
 	<div id="wrap" class="main">
@@ -35,7 +40,60 @@
 				<section class="section cover" data-section-name="cover">
 						<div class="media_bx">
 							<div class="mv_bx" id="backgroundMv">
-								<video poster autoplay loop muted playsinline><source src="KakaoTalk_Video_20200306_2251_15_046.mp4" type="video/mp4"></video>
+								<video poster autoplay loop muted playsinline><source src="KakaoTalk_Video_20200306_2251_15_046.mp4" type="video/mp4">
+								</video>
+				<div id="ca-container" class="ca-container">
+				<div class="ca-wrapper">
+				<div class="ca-item">
+				<div class="ca-item-main"> <img src="images/01.png" alt="">
+				<h3> Title 1 </h3>
+				<p> <span> Description 1 </span> </p>
+				<div class="ca-more-wrap"><a class="ca-more" href="#">more...</a></div>
+				</div>
+				<div class="ca-content-wrapper">
+				<div class="ca-content">
+				<h6> Subtitle </h6>
+				<a href="#" class="ca-close">close</a>
+				<div class="ca-content-text">
+				Content 1
+			</div>
+		</div>
+	</div>
+				<div class="ca-wrapper">
+				<div class="ca-item">
+				<div class="ca-item-main"> <img src="images/02.png" alt="">
+				<h3> Title 2 </h3>
+				<p> <span> Description 2 </span> </p>
+				<div class="ca-more-wrap"><a class="ca-more" href="#">more...</a></div>
+				</div>
+				<div class="ca-content-wrapper">
+				<div class="ca-content">
+				<h6> Subtitle</h6>
+				<a href="#" class="ca-close">close</a>
+				<div class="ca-content-text">
+				Content 2
+				</div>
+			</div>
+		</div>
+				<div class="ca-wrapper">
+				<div class="ca-item">
+				<div class="ca-item-main"> <img src="images/03.png" alt="">
+				<h3> Title 3 </h3>
+				<p> <span> Description 1 </span> </p>
+				<div class="ca-more-wrap"><a class="ca-more" href="#">more...</a></div>
+				</div>
+				<div class="ca-content-wrapper">
+				<div class="ca-content">
+				<h6> Subtitle </h6>
+				<a href="#" class="ca-close">close</a>
+				<div class="ca-content-text">
+				Content 3
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 							</div>
 						</div>
 					</div>
