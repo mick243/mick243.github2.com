@@ -22,8 +22,6 @@
 #header .gnb #menu.on span:nth-child(1){transform:translateY(8px) rotate(225deg);-webkit-transition-delay:0.1s;transition-delay:0.1s}
 #header .gnb #menu.on span:nth-child(2){opacity:0}
 #header .gnb #menu.on span:nth-child(3){transform:translateY(-8px) rotate(-225deg);-webkit-transition-delay:0.1s;transition-delay:0.1s}
-#container{overflow:hidden;position:relative;z-index:0}
-#container .contents{overflow:hidden;position:relative}
 .main .q_page{position:fixed;left:40px;top:50%;z-index:1100;transform:translateY(-50%);}
 .main .q_page li{padding:5px 0}
 .main .q_page li a{display:block;color:rgba(255,255,255,0.4);font-family:Camber,'Camber',sans-serif;font-size:13px;font-weight:500;line-height:35px;vertical-align:top}
